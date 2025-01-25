@@ -1,7 +1,8 @@
 [package]
 name = "limine-genconf"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 
 [dependencies]
 clap = { version = "4.5.23", features = ["derive"] }
+version-compare = "0.2.0"

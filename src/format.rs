@@ -20,6 +20,7 @@ fn format_entry(entry: Entry, config: &Cli) -> String {
         title,
         initrd,
         kernel,
+        ..
     } = entry;
 
     let initrd = initrd.display();
